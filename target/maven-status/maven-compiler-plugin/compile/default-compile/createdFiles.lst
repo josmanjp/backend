@@ -1,0 +1,17 @@
+com/example/PorfolioBe/Service/PersonaService.class
+com/example/PorfolioBe/Service/ExperienciaService.class
+com/example/PorfolioBe/model/Estudio.class
+com/example/PorfolioBe/PorfolioBeApplication.class
+com/example/PorfolioBe/model/Proyecto.class
+com/example/PorfolioBe/Repository/PersonaRepository.class
+com/example/PorfolioBe/model/Persona.class
+com/example/PorfolioBe/model/Servicio.class
+com/example/PorfolioBe/Repository/ProyectoRepository.class
+com/example/PorfolioBe/Service/ServicioService.class
+com/example/PorfolioBe/Repository/EstudioRepository.class
+com/example/PorfolioBe/Controller/Controller.class
+com/example/PorfolioBe/model/Experiencia.class
+com/example/PorfolioBe/Repository/ServicioRepository.class
+com/example/PorfolioBe/Repository/ExperienciaRepository.class
+com/example/PorfolioBe/Service/EstudioService.class
+com/example/PorfolioBe/Service/ProyectoService.class
