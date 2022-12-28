@@ -8,6 +8,7 @@ com/example/PorfolioBe/model/Persona.class
 com/example/PorfolioBe/model/Servicio.class
 com/example/PorfolioBe/Repository/ProyectoRepository.class
 com/example/PorfolioBe/Service/ServicioService.class
+WebConfig.class
 com/example/PorfolioBe/Repository/EstudioRepository.class
 com/example/PorfolioBe/Controller/Controller.class
 com/example/PorfolioBe/model/Experiencia.class
