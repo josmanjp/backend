@@ -58,6 +58,7 @@ public class Controller {
     @GetMapping ("/ver/personas")
     @ResponseBody
     public List <Persona> verPersonas(){
+     
         return persoServ.verPersonas();
     }
     
@@ -74,8 +75,11 @@ public class Controller {
     //----------Estudio end points
     @PostMapping ("/new/estudio")
     public void agregarEstudio (@RequestBody Estudio estu) {
+       
         estuServ.crearEstudio(estu);
     }
+    
+    
     @GetMapping ("/ver/estudios")
     @ResponseBody
     public List <Estudio> verEstudios(){
@@ -84,6 +88,7 @@ public class Controller {
     
     @DeleteMapping ("/delete/estudio/{id}")    
     public void eliminarEstudio(@PathVariable Integer id){
+        
         estuServ.eliminarEstudio(id);
     }   
     
@@ -153,6 +158,4 @@ public class Controller {
     public Experiencia buscarExperiencia(@PathVariable Integer id){
         return expeServ.buscarExperiencia(id);
     }
-
-    //-------Experiencia End points
 }
